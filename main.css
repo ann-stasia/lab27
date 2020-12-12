@@ -1,0 +1,113 @@
+body {
+  background: rgb(59, 67, 113);
+  background: -moz-linear-gradient(top, rgba(59, 67, 113, 0.9) 0%, rgba(243, 144, 79, 0.9) 99%);
+  background: -webkit-linear-gradient(top, rgba(59, 67, 113, 0.9) 0%, rgba(243, 144, 79, 0.9) 99%);
+  background: linear-gradient(to bottom, rgba(59, 67, 113, 1) 0%, rgba(243, 144, 79, 1) 99%);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#3b4371', endColorstr='#f3904f', GradientType=0);
+  background-attachment: fixed;
+}
+
+.par
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 65%;
+  
+}
+
+.round
+{
+
+    transition: 0.7s; 
+}
+
+.round:hover
+{
+  transform: scale(1.4);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+
+h1 {
+  color: hsla(0, 0%, 0%, .9);
+  font: normal 140px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 5px;
+  margin: 20px 0 0 0;
+  
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+  animation: move linear 2000ms infinite;  
+}
+
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 hsla(180, 100%, 50%, 1), 
+      -3px -3px 0 hsla(180, 100%, 50%, 1), 
+      -2px -2px 0 hsla(180, 100%, 50%, 1), 
+      -1px -1px 0 hsla(180, 100%, 50%, 1),
+      4px 4px 0 hsla(0, 100%, 50%, 1), 
+      3px 3px 0 hsla(0, 100%, 50%, 1), 
+      2px 2px 0 hsla(0, 100%, 50%, 1), 
+      1px 1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  50% {
+    text-shadow:
+      -4px 4px 0 hsla(0, 100%, 50%, 1), 
+      -3px 3px 0 hsla(0, 100%, 50%, 1), 
+      -2px 2px 0 hsla(0, 100%, 50%, 1), 
+      -1px 1px 0 hsla(0, 100%, 50%, 1),
+      4px -4px 0 hsla(180, 100%, 50%, 1), 
+      3px -3px 0 hsla(180, 100%, 50%, 1), 
+      2px -2px 0 hsla(180, 100%, 50%, 1), 
+      1px -1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 hsla(180, 100%, 50%, 1), 
+      3px 3px 0 hsla(180, 100%, 50%, 1), 
+      2px 2px 0 hsla(180, 100%, 50%, 1), 
+      1px 1px 0 hsla(180, 100%, 50%, 1),
+      -4px -4px 0 hsla(0, 100%, 50%, 1), 
+      -3px -3px 0 hsla(0, 100%, 50%, 1), 
+      -2px -2px 0 hsla(0, 100%, 50%, 1), 
+      -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    ;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 hsla(0, 100%, 50%, 1), 
+      3px -3px 0 hsla(0, 100%, 50%, 1), 
+      2px -2px 0 hsla(0, 100%, 50%, 1), 
+      1px -1px 0 hsla(0, 100%, 50%, 1),
+      -4px 4px 0 hsla(180, 100%, 50%, 1), 
+      -3px 3px 0 hsla(180, 100%, 50%, 1), 
+      -2px 2px 0 hsla(180, 100%, 50%, 1), 
+      -1px 1px 0 hsla(180, 100%, 50%, 1)
+    ;
+  }  
+}
+
+
